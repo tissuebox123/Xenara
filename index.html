@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xenara Translator</title>
+    <style>
+        body { font-family: Arial Narrow,sans-serif; }
+        #translator { margin: 50px auto; width: 400px; text-align: center; }
+        textarea { width: 100%; height: 100px; }
+        button { width: 100%; padding: 10px; margin-top: 10px; }
+        h1 { color: #4CAF50; }
+    </style>
+</head>
+<body>
+    <div id="translator">
+        <h1>Xenara Translator</h1>
+        <textarea id="inputText" placeholder="Enter English or Xenara text here..."></textarea>
+        <button onclick="translateText()">Translate</button>
+        <textarea id="outputText" readonly placeholder="Translation will appear here..."></textarea>
+    </div>
+    <script src="translator.js"></script>
+    <a href="https://replit.com/@oksowhatsuppupp/XenaraGen">generator</a>
+</body>
+</html>
